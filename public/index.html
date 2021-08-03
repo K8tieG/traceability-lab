@@ -1,16 +1,18 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Pet List</title>
 </head>
+
 <body>
     <h1>Pet List</h1>
     <form action="">
-        <input type="text" placeholder='type pet name here'/>
-        <button>Add Pet</button>
+        <input type="text" placeholder='type pet name here' />
+        <button type="submit">Add Pet</button>
     </form>
     <section></section>
 
@@ -22,9 +24,9 @@
         const container = document.querySelector('section');
 
         // function that will handle request 
-        function submitHandler(evt){
+        function submitHandler(evt) {
             evt.preventDefault();
-            // console.log('hello, hi, hey')
+            console.log('hello, hi, hey')
 
             //axios stuff
             axios
@@ -48,12 +50,13 @@
                     document.querySelectorAll('.close').forEach(btn => {
                         btn.addEventListener('click', (e) => {
                             e.target.parentNode.remove()
-        })
-    })
-})
-        }
+                        })
+                    })
+                })
+        };
         addForm.addEventListener('submit', submitHandler)
 
     </script>
 </body>
+
 </html>
