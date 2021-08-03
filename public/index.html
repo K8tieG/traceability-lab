@@ -28,7 +28,7 @@
 
             //axios stuff
             axios
-                .post('/api/students', { name: nameInput.value })
+                .post('/api/pets', { name: nameInput.value })
                 .then(res => {
                     container.innerHTML = ''
                     nameInput.value = ''
