@@ -1,0 +1,25 @@
+{
+  "name": "f4-monitoring-interactive",
+  "version": "1.0.0",
+  "main": "servier.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1",
+    "rollbar": "^2.24.0"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/K8tieG/f4-monitoring-interactive-lecture.git"
+  },
+  "bugs": {
+    "url": "https://github.com/K8tieG/f4-monitoring-interactive-lecture/issues"
+  },
+  "homepage": "https://github.com/K8tieG/f4-monitoring-interactive-lecture#readme",
+  "description": ""
+}
